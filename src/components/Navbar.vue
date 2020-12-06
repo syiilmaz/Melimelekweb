@@ -3,25 +3,37 @@
   <b-navbar >
   <b-navbar-nav >
      
-        <b-nav-item href="#">Anasayfa</b-nav-item >
+        <b-nav-item   style="font-size: 14px;
+    text-transform: uppercase;
+    color: #222;"> <b> <NuxtLink style="color:black"  to="/"> Anasayfa</NuxtLink> </b></b-nav-item > 
+     
+ 
+        <b-nav-item-dropdown   text="MODELLER" style="font-size: 14px;
     
-        <b-nav-item-dropdown text="Modeller" >
-          <b-dropdown-item href="#">Oturum Aç</b-dropdown-item>
-          <b-dropdown-item href="#">Hesabım </b-dropdown-item>
-          <b-dropdown-item href="#">Ödeme </b-dropdown-item>
-          <b-dropdown-item href="#">Takip Listesi</b-dropdown-item>
+    color:#17202A;font-weight:bold;" >
+        <b-dropdown-item  href="#">  <NuxtLink style="color:black"  to="/filter"> Melimelek Büyükler</NuxtLink> </b-dropdown-item>
+          <b-dropdown-item   href="#">Melimelek Küçükler </b-dropdown-item>
+          <b-dropdown-item  href="#">Melimelek Ajandalar </b-dropdown-item>
+          <b-dropdown-item   href="#">Melimelek Planner</b-dropdown-item>
         </b-nav-item-dropdown>
+ 
           </b-navbar-nav>
           <b-navbar-nav> 
-               <b-nav-item href="#">Kampanyadakiler</b-nav-item>
-         <b-nav-item href="#">Hakkımızda</b-nav-item>
+               <b-nav-item href="#" style="font-size: 14px;
+    text-transform: uppercase;
+    color: #222;"><b><NuxtLink style="color:black"  to="/"> KAMPANYADAKİLER</NuxtLink></b></b-nav-item>
+         <b-nav-item href="#" style="font-size: 14px;
+    text-transform: uppercase;
+    color: #222;"><b> <NuxtLink style="color:black"  to="/"> HAKKIMIZDA</NuxtLink></b></b-nav-item>
           </b-navbar-nav>
             <b-navbar-nav >
-                  <b-nav-item-dropdown text="E-Ticaret" >
-          <b-dropdown-item href="#">Oturum Aç</b-dropdown-item>
-          <b-dropdown-item href="#">Hesabım </b-dropdown-item>
-          <b-dropdown-item href="#">Ödeme </b-dropdown-item>
-          <b-dropdown-item href="#">Takip Listesi</b-dropdown-item>
+                  <b-nav-item-dropdown style="font-size: 14px;
+
+    color: #222;font-weight:bold;" text="E-TİCARET" >
+          <b-dropdown-item href="#">Mesafeli Satış Sözleşmesi</b-dropdown-item>
+          <b-dropdown-item href="#">İptal ve İade Koşulları </b-dropdown-item>
+          <b-dropdown-item href="#">Gizlilik Koşulları </b-dropdown-item>
+          <b-dropdown-item href="#">Banka Hesap Numaraları</b-dropdown-item>
         </b-nav-item-dropdown>
 
                 
@@ -29,7 +41,9 @@
 
         
         <b-navbar-nav>
-        <b-nav-item href="#">İletişim</b-nav-item>
+        <b-nav-item href="#" style="font-size: 14px;
+    text-transform: uppercase;
+    color: #222;"><b><NuxtLink style="color:black"  to="/"> İLETİŞİM</NuxtLink></b></b-nav-item>
           </b-navbar-nav>
       
           
@@ -39,6 +53,7 @@
 </template>
 
 <script>
+
 export default {
 
 

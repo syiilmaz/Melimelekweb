@@ -1,6 +1,7 @@
 <template>
   <b-container class="bv-example-row">
     <b-row>
+  
       <b-col>
           <div class="container">
    
@@ -37,13 +38,15 @@
 
               </div>
               <div>
-     <b-button id="show-btn" @click="showModal" >Sepete Ekle</b-button> 
-    <b-modal ref="my-modal" hide-footer title="Using Component Methods">
-      <div class="d-block text-center">
-        <h3>Melimelek Turuncu Ajanda sepete eklendi.</h3>
-      </div>
-     
-    </b-modal>
+   <b-button  v-b-modal="'my-modal'" style="position:relative;
+
+" squared >Sepete Ekle</b-button>
+ <b-modal>
+  
+       Mor Ajanda bu ürünler sepete eklendi.
+    
+    
+  </b-modal>
               </div>
  <div style="font-size: 3rem;position:relative;left:200px;top:-50px"
 >
@@ -71,15 +74,17 @@
 </template>
 
 <script>
+
 export default {
-     
-     methods: {
-      showModal() {
-        this.$refs['my-modal'].show()
+     data() {
+      return {
+        value: 1,
+        modalShow: false
+        
       }
-
-
-}
+    
+      },
+     
 }
 
 </script>

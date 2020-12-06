@@ -4,16 +4,20 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "nuxt build",
+    "lint": "vue-cli-service lint",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "dev": "nuxt"
   },
   "dependencies": {
     "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
+    "nuxt": "^2.14.7",
     "vue": "^2.6.11",
     "vue-agile": "^1.1.3",
     "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "vuex": "^3.6.0"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.11.5",

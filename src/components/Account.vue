@@ -12,8 +12,8 @@
         </div>
 
         <div>
-          <p class="text-left">Sosyal Unvan</p>
-
+          <p  style="position:relative;top:20px" class="text-left">Sosyal Unvan</p>
+        <div style="position:relative;left:200px;top:-20px"> 
           <b-form-radio-group
             v-model="selected"
             :options="options"
@@ -23,7 +23,7 @@
             disabled-field="notEnabled"
           ></b-form-radio-group>
         </div>
-
+        </div>
         <div>
           <div>
             <b-form-group
@@ -33,7 +33,10 @@
               label="Ad"
               label-for="input-horizontal"
             >
-              <b-form-input id="input-horizontal"></b-form-input>
+              <b-form-input   style="background: #ebebeb;
+    color: #acaaa6;
+    border: none;
+    padding: 8px 16px;" id="input-horizontal"></b-form-input>
             </b-form-group>
             <b-form-group
               id="fieldset-horizontal"
@@ -42,7 +45,10 @@
               label="Soyad"
               label-for="input-horizontal"
             >
-              <b-form-input id="input-horizontal"></b-form-input>
+              <b-form-input  style="background: #ebebeb;
+    color: #acaaa6;
+    border: none;
+    padding: 8px 16px;" id="input-horizontal"></b-form-input>
             </b-form-group>
 
             <b-form-group
@@ -52,7 +58,10 @@
               label="E posta"
               label-for="input-horizontal"
             >
-              <b-form-input id="input-horizontal"></b-form-input>
+              <b-form-input  style="background: #ebebeb;
+    color: #acaaa6;
+    border: none;
+    padding: 8px 16px;" id="input-horizontal"></b-form-input>
             </b-form-group>
             <p class="text-left"><b>Hesap Oluştur</b>(isteğe bağlı)</p>
             <p class="text-left">Ve sonraki siparişinizde zaman kazanın!</p>
@@ -64,7 +73,10 @@
               label-for="input-horizontal"
             >
                  <b-input-group>
-          <b-form-input type="password" min="0.00"></b-form-input>
+          <b-form-input  style="background: #ebebeb;
+    color: #acaaa6;
+    border: none;
+    padding: 8px 16px;" type="password" min="0.00"></b-form-input>
 
     <b-input-group-append>
        <b-button variant="secondary">Göster</b-button>
@@ -84,7 +96,10 @@
                   placeholder="YYYY-MM-DD" 
                   v-model="value"
                   class="mb-2"
-                ></b-form-datepicker>
+               style="background: #ebebeb;
+    color: #acaaa6;
+    border: none;
+    padding: 8px 16px;" ></b-form-datepicker>
               </div>
             </b-form-group>
              <div>
@@ -109,8 +124,7 @@
              </div>
 
             <b-button v-b-popover.hover.leftbottom="'Popover!'"  style="position:relative;
-left:250px;" 
-variant="danger"><b>DEVAM ET </b></b-button>
+left:500px;border-radius: 2px;border-color: #ff3333;background-color: #ff3333;"><b>DEVAM ET </b></b-button>
             <hr style="width:100%;text-align:left;margin-left:0" />
           </div>
         </div>
@@ -122,8 +136,8 @@ variant="danger"><b>DEVAM ET </b></b-button>
                     <p class="text-left"  > <b>Alışveriş sepetim</b></p>
                      <p class="text-left" >1 öğe</p>
 
-            <b-button variant="danger" style="position:relative;
-left:-60px;" ><b>DETAYLARI GÖSTER</b></b-button>
+            <b-button style="position:relative;
+left:-5px; border-radius: 2px;border-color: #ff3333;background-color: #ff3333;" ><b>DETAYLARI GÖSTER</b></b-button>
                    
             <b-form-group
         id="fieldset-horizontal"
@@ -170,13 +184,13 @@ left:-60px;" ><b>DETAYLARI GÖSTER</b></b-button>
 
                 </b-card>
                 <b-card>
-                       <p class="text-left">   <b-icon icon="shield-fill-check"></b-icon> 256 Bit Güvenli Alışveriş</p>
+                       <p class="text-left"> <b-icon icon="shield-fill-check"></b-icon> 256 Bit Güvenli Alışveriş</p>
                 </b-card>
                 <b-card>
-                     <p class="text-left">   <b-icon icon="minecart-loaded"></b-icon>Hızlı Teslimat</p>
+                     <p class="text-left">  <b-icon icon="minecart-loaded"></b-icon>Hızlı Teslimat</p>
                 </b-card>
                 <b-card>
-                     <p class="text-left">   <b-icon icon="arrow-left-right"></b-icon>Değişim ve İade Seçeneği</p>
+                     <p class="text-left"> <b-icon icon="arrow-left-right"></b-icon>Değişim ve İade Seçeneği</p>
                 </b-card>
 
 

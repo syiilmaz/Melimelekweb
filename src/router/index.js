@@ -6,7 +6,7 @@ import Cards from "../components/Cards.vue"
 import Account from "../components/Account.vue"
 import Product from "../components/Product.vue"
 import Cart from "../components/Cart.vue"
-import Filter from "../components/Filter.vue"
+
 import Modal from "../components/Modal.vue"
 
 Vue.use(VueRouter);
@@ -44,11 +44,7 @@ const routes = [
           name : "Cart",
           component : Cart
           },
-          {
-            path :"/filter",
-            name : "Filter",
-            component : Filter
-            },
+        
             {
               path :"/modal",
               name : "Modal",

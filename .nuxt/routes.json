@@ -1,0 +1,51 @@
+[
+  {
+    "name": "acc",
+    "path": "/acc",
+    "component": "/home/sena/melek/pages/acc/index.vue",
+    "chunkName": "pages/acc/index",
+    "_name": "_fc28fa6e"
+  },
+  {
+    "name": "cart",
+    "path": "/cart",
+    "component": "/home/sena/melek/pages/cart/index.vue",
+    "chunkName": "pages/cart/index",
+    "_name": "_928e1124"
+  },
+  {
+    "name": "filter",
+    "path": "/filter",
+    "component": "/home/sena/melek/pages/filter/index.vue",
+    "chunkName": "pages/filter/index",
+    "_name": "_cb7b8df4"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/home/sena/melek/pages/login/index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_32b41071"
+  },
+  {
+    "name": "product",
+    "path": "/product",
+    "component": "/home/sena/melek/pages/product/index.vue",
+    "chunkName": "pages/product/index",
+    "_name": "_6f48b192"
+  },
+  {
+    "name": "product-productId",
+    "path": "/product/productId",
+    "component": "/home/sena/melek/pages/product/productId.vue",
+    "chunkName": "pages/product/productId",
+    "_name": "_7d151a4f"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/sena/melek/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_54717157"
+  }
+]

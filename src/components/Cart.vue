@@ -8,13 +8,13 @@
         <b-card-text></b-card-text>
         <b-form-group>
         
-  <b-img left src="https://melimelek.com.tr/216-home_default/melimelek-turuncu-ajanda.jpg" style="height:100px" ></b-img>
+  <b-img left src="https://melimelek.com.tr/214-home_default/melimelek-mor-ajanda.jpg" style="height:100px" ></b-img>
 
-  <p class="text-left"> <b>Melimelek Turuncu Ajanda</b></p>
-   <p class="text-left" style="color:red"> <b>24,90 TL</b></p>
+  <p class="text-left"> <b>Melimelek Mor Ajanda</b></p>
+   <p class="text-left" style="color:red"> <b>24,90 <b-img src="https://www.eniyiandroid.com/wp-content/uploads/2018/03/tl-simgesi.jpg" style="height:10px" ></b-img> </b> </p>
  <p class="text-right"  style="position:relative;
 left:-20px;
-top:-40px;"> <b>24,90 TL</b> <b-icon icon="trash-fill"></b-icon></p> 
+top:-40px;"> <b>24,90  <b-img src="https://www.eniyiandroid.com/wp-content/uploads/2018/03/tl-simgesi.jpg" style="height:10px" ></b-img>  </b> <b-icon icon="trash-fill"></b-icon></p> 
  <div style="position:relative;
 left:80px;
 top:-80px;">
@@ -25,9 +25,10 @@ top:-80px;">
         </b-form-group>
       </b-card>
       <div style="position:relative;
-left:-250px;
+left:0px;
 top:50px;">
         <b-button  variant="danger"><b>ALIŞVERİŞE DEVAM ET </b></b-button>
+       
       </div>
    </b-col>
       <b-col cols="4"> 
@@ -39,7 +40,7 @@ top:50px;">
         label="1 öge"
       
         label-for="input-horizontal"
-      >   <p class="text-right">24,90 TL</p>
+      >   <p class="text-right">24,90 <b-img src="https://www.eniyiandroid.com/wp-content/uploads/2018/03/tl-simgesi.jpg" style="height:10px" ></b-img></p>
       </b-form-group>
                     
             <b-form-group
@@ -49,7 +50,7 @@ top:50px;">
         label="Kargolama"
       
         label-for="input-horizontal"
-      >   <p class="text-right">8,00 TL</p>
+      >   <p class="text-right">8,00 <b-img src="https://www.eniyiandroid.com/wp-content/uploads/2018/03/tl-simgesi.jpg" style="height:10px" ></b-img></p>
       </b-form-group>
                 </b-card>
                 <b-card>
@@ -60,7 +61,7 @@ top:50px;">
         label="Toplam(Vergiler Hariç)"
       
         label-for="input-horizontal"
-      >   <p class="text-right">32,90 TL</p>
+      >   <p class="text-right">32,90 <b-img src="https://www.eniyiandroid.com/wp-content/uploads/2018/03/tl-simgesi.jpg" style="height:10px" ></b-img></p>
       </b-form-group>
                     
             <b-form-group
@@ -70,7 +71,7 @@ top:50px;">
         label="Vergiler"
       
         label-for="input-horizontal"
-      >   <p class="text-right">0,00 TL</p>
+      >   <p class="text-right">0,00 <b-img src="https://www.eniyiandroid.com/wp-content/uploads/2018/03/tl-simgesi.jpg" style="height:10px" ></b-img></p>
       </b-form-group>
                 </b-card>
                 <b-card>

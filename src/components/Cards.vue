@@ -16,7 +16,7 @@
     <b-icon  style="position:relative;
 left:-550px;top : 10px;color: #999999;" icon="three-dots"></b-icon>
     <div  style="position:relative;
-left:500px;" >
+left:990px;" >
       <b-button title="previous" variant="outline-secondary" class="right">
         <b-icon icon="arrow-bar-left" aria-hidden="true"></b-icon>
       </b-button>
@@ -34,26 +34,38 @@ left:500px;" >
         img-alt="Image"
         img-top
       >
-        <b-card-text>
-          Melimelek 2020 Ajanda <br />
-          <b>34.90 TL</b>
-        </b-card-text>
+      
+       <b-card-text >
+          Melimelek 2020 Ajanda
+         <br />
+          <b style="position:relative;left:60px;">34.90<b-img src="https://www.eniyiandroid.com/wp-content/uploads/2018/03/tl-simgesi.jpg" style="height:10px" ></b-img></b>
+        </b-card-text> 
         <div class="overlay">
     <div style="position:relative;
-left:10px;top:300px">
-        <b-button-toolbar>
+left:10px;top:220px;">
+        <b-button-toolbar >
       <b-button-group >
-        <b-button   >
-          <b-icon icon="minecart-loaded" aria-hidden="true"></b-icon>
+        <b-button    id="show-btn" @click="$bvModal.show('bv-modal-example')"     variant="secondary" style="border-color:black;" >
+        <b-icon icon="minecart-loaded" aria-hidden="true"></b-icon>
+         
         </b-button>
-        <b-button >
-          <b-icon icon="filter-left" aria-hidden="true"></b-icon>
+         <b-modal id="bv-modal-example" hide-footer>
+   
+    <div class="d-block text-center" style="background-color: #8abf44;" >
+      <h4 style="color:white;font-family:sans-serif;"> 
+     Melimelek Mor Ajanda sepete eklendi.</h4>
+    </div>
+    
+  </b-modal>
+        <b-button variant="light" style="border-color:black;">
+           <NuxtLink to="/product">  <b-icon style="color:black" icon="filter-left" aria-hidden="true"></b-icon>  </NuxtLink> 
         </b-button>
-        <b-button >
+        <b-button variant="light" style="border-color:black;">
           <b-icon icon="heart" aria-hidden="true"></b-icon>
         </b-button>
-        <b-button >
-          <b-icon icon="eye-fill" aria-hidden="true"></b-icon>
+        <b-button variant="light" style="border-color:black;">
+         <b-icon icon="eye-fill" aria-hidden="true"></b-icon>
+       
         </b-button>
       </b-button-group>
         </b-button-toolbar>
@@ -71,24 +83,26 @@ left:10px;top:300px">
       >
         <b-card-text>
           Melimelek Turkuaz Ajanda <br />
-          <b>24.90 TL</b>
+          <b style="position:relative;left:60px;">24.90 <b-img src="https://www.eniyiandroid.com/wp-content/uploads/2018/03/tl-simgesi.jpg" style="height:10px" ></b-img></b>
         </b-card-text>
        <div class="overlay">
     <div style="position:relative;
-left:10px;top:300px">
-        <b-button-toolbar>
+left:10px;top:220px;">
+        <b-button-toolbar >
       <b-button-group >
-        <b-button >
-          <b-icon icon="minecart-loaded" aria-hidden="true"></b-icon>
+        <b-button  variant="secondary" style="border-color:black;" >
+        <b-icon icon="minecart-loaded" aria-hidden="true"></b-icon>
+         
         </b-button>
-        <b-button >
-          <b-icon icon="filter-left" aria-hidden="true"></b-icon>
+        <b-button variant="light" style="border-color:black;">
+           <NuxtLink to="/product">  <b-icon style="color:black" icon="filter-left" aria-hidden="true"></b-icon>  </NuxtLink> 
         </b-button>
-        <b-button >
+        <b-button variant="light" style="border-color:black;">
           <b-icon icon="heart" aria-hidden="true"></b-icon>
         </b-button>
-        <b-button >
-          <b-icon icon="eye-fill" aria-hidden="true"></b-icon>
+        <b-button variant="light" style="border-color:black;">
+         <b-icon icon="eye-fill" aria-hidden="true"></b-icon>
+       
         </b-button>
       </b-button-group>
         </b-button-toolbar>
@@ -103,24 +117,26 @@ left:10px;top:300px">
       >
         <b-card-text>
           Melimelek Sarı Ajanda <br />
-          <b>24.90 TL</b>
+          <b style="position:relative;left:60px;">24.90 <b-img src="https://www.eniyiandroid.com/wp-content/uploads/2018/03/tl-simgesi.jpg" style="height:10px" ></b-img></b>
         </b-card-text>
          <div class="overlay">
     <div style="position:relative;
-left:10px;top:300px">
-        <b-button-toolbar>
+left:10px;top:220px;">
+        <b-button-toolbar >
       <b-button-group >
-        <b-button >
-          <b-icon icon="minecart-loaded" aria-hidden="true"></b-icon>
+        <b-button  variant="secondary" style="border-color:black;" >
+        <b-icon icon="minecart-loaded" aria-hidden="true"></b-icon>
+         
         </b-button>
-        <b-button >
-          <b-icon icon="filter-left" aria-hidden="true"></b-icon>
+        <b-button variant="light" style="border-color:black;">
+           <NuxtLink to="/product">  <b-icon style="color:black" icon="filter-left" aria-hidden="true"></b-icon>  </NuxtLink> 
         </b-button>
-        <b-button >
+        <b-button variant="light" style="border-color:black;">
           <b-icon icon="heart" aria-hidden="true"></b-icon>
         </b-button>
-        <b-button >
-          <b-icon icon="eye-fill" aria-hidden="true"></b-icon>
+        <b-button variant="light" style="border-color:black;">
+         <b-icon icon="eye-fill" aria-hidden="true"></b-icon>
+       
         </b-button>
       </b-button-group>
         </b-button-toolbar>
@@ -135,24 +151,26 @@ left:10px;top:300px">
       >
         <b-card-text>
           Melimelek Sarı Ajanda <br />
-          <b>24.90 TL</b>
+          <b style="position:relative;left:60px;">24.90 <b-img src="https://www.eniyiandroid.com/wp-content/uploads/2018/03/tl-simgesi.jpg" style="height:10px" ></b-img></b>
         </b-card-text>
-         <div class="overlay">
+        <div class="overlay">
     <div style="position:relative;
-left:10px;top:300px">
-        <b-button-toolbar>
+left:10px;top:220px;">
+        <b-button-toolbar >
       <b-button-group >
-        <b-button >
-          <b-icon icon="minecart-loaded" aria-hidden="true"></b-icon>
+        <b-button  variant="secondary" style="border-color:black;" >
+        <b-icon icon="minecart-loaded" aria-hidden="true"></b-icon>
+         
         </b-button>
-        <b-button >
-          <b-icon icon="filter-left" aria-hidden="true"></b-icon>
+        <b-button variant="light" style="border-color:black;">
+           <NuxtLink to="/product">  <b-icon style="color:black" icon="filter-left" aria-hidden="true"></b-icon>  </NuxtLink> 
         </b-button>
-        <b-button >
+        <b-button variant="light" style="border-color:black;">
           <b-icon icon="heart" aria-hidden="true"></b-icon>
         </b-button>
-        <b-button >
-          <b-icon icon="eye-fill" aria-hidden="true"></b-icon>
+        <b-button variant="light" style="border-color:black;">
+         <b-icon icon="eye-fill" aria-hidden="true"></b-icon>
+       
         </b-button>
       </b-button-group>
         </b-button-toolbar>
@@ -167,7 +185,18 @@ left:10px;top:300px">
 </template>
 
 <script>
+// import {mapState} from "vuex";
+// import {state} from   "vuex";
+// export default {
+//   computed : {
+//     ...mapState ([
+//       "title",
+//       "price"
+//     ]),
+//   }
 
+
+// }
 </script>
 
 <style>
